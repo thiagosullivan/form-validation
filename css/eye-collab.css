@@ -1,0 +1,31 @@
+.eye-collab {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+
+    background-image: url(../../img/eye-hide.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    text-indent: -9999px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.eye-collab2 {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+
+    background-image: url(../../img/eye-hide.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    text-indent: -9999px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}

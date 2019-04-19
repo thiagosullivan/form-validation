@@ -1,0 +1,9 @@
+.msg-erro{
+    color: red;
+}
+
+#botao {
+    position: relative;
+    left: 23.5%;
+    top: 67%;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Validação de Formulário</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/error.css">
+    <link rel="stylesheet" href="/css/eye-collab.css">
+    <link rel="stylesheet" href="/css/wrap-input.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Cadastro</h1>
+        <form action="gravar.php" method="POST" id="form-contato">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" name="nome" id="nome" placeholder="Informe o Nome">
+                <span class="msg-erro msg-nome"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Informe o E-mail">
+                <span class="msg-erro msg-email"></span>
+            </div>
+            <div class="form-group">
+                <label for="privilegio">Sexo</label>
+                <select class="form-control" name="sexo" id="sexo">
+                    <option value="">Selecione o Sexo</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Masculino">Masculino</option>
+                </select>
+                <span class="msg-erro msg-sexo"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Senha (mínimo 6 caracteres)</label><br>
+                <div class="wrap-input">
+                    <input type="password" class="form-control input-collab -password" id="senha" name="senha" placeholder="Informe a Senha">
+                    <span class="eye-collab -show">Não mostra a senha</span>
+                </div>
+                <span class="msg-erro msg-senha"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Repita a Senha (mínimo 6 caracteres)</label><br>
+                <div class="wrap-input2">
+                    <input type="password" class="form-control input-collab2 -password" id="senha2" name="senha" placeholder="Informe a Senha">
+                    <span class="eye-collab2 -show">Não mostra a senha</span>
+                </div>
+                <span class="msg-erro msg-senha2"></span>
+            </div>
+            <button type="submit" class="btn btn-primary" id="botao">
+                Gravar
+            </button>
+        </form>
+    </div>
+    <script src="/js/wrap-input.js"></script>
+    <script src="/js/validation.js"></script>
+</body>
+</html>

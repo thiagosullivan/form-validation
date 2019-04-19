@@ -1,0 +1,17 @@
+.wrap-input {
+    display: inline-block;
+    position: relative;
+}
+
+.wrap-input.-show > .eye-collab {
+    background-image: url(../../img/eye-show.svg);
+}
+
+.wrap-input2 {
+    display: inline-block;
+    position: relative;
+}
+
+.wrap-input2.-show > .eye-collab2 {
+    background-image: url(../../img/eye-show.svg);
+}
