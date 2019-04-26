@@ -4,7 +4,7 @@
 }
 
 .wrap-input.-show > .eye-collab {
-    background-image: url(../../img/eye-show.svg);
+    background-image: url(../img/eye-show.svg);
 }
 
 .wrap-input2 {
@@ -13,5 +13,5 @@
 }
 
 .wrap-input2.-show > .eye-collab2 {
-    background-image: url(../../img/eye-show.svg);
+    background-image: url(../img/eye-show.svg);
 }

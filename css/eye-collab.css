@@ -3,7 +3,7 @@
     width: 30px;
     cursor: pointer;
 
-    background-image: url(../../img/eye-hide.svg);
+    background-image: url(../img/eye-hide.svg);
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
@@ -19,7 +19,7 @@
     width: 30px;
     cursor: pointer;
 
-    background-image: url(../../img/eye-hide.svg);
+    background-image: url(../img/eye-hide.svg);
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
